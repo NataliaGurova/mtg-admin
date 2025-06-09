@@ -1,11 +1,10 @@
-import Container from "@/components/container/Container";
 
 
 const RegisterPage = () => {
   return (
-    <Container>
+    <main>
       <h1>Register</h1>
-    </Container>
+    </main>
   )
 }
 

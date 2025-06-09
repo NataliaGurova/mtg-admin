@@ -1,12 +1,10 @@
 
-import Container from "@/components/container/Container";
-
 
 const LoginPage = () => {
   return (    
-    <Container>
+    <main>
       <h1>Login</h1>
-    </Container>
+    </main>
     
   )
 }
