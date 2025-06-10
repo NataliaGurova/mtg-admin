@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
+import { Inter } from "next/font/google"
 import "./globals.css";
 
+const inter = Inter({ subsets: ['latin'], weight: ["400", "700"] })
 
 export const metadata: Metadata = {
     title: 'Create MTG',
@@ -14,10 +16,8 @@ const RootLayout = async ({
 }>) => {
     return (
         <html lang='en'>
-            <body >
-
+            <body className={inter.className}>
                 {children}
-
             </body>
         </html>
     );
