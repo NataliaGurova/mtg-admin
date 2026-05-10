@@ -5,3 +5,9 @@ export const navLinks = [
   { href: "/sealed", label: "MTG Sealed" },
   { href: "/admin", label: "Admin" },
 ];
+
+export const navLinksAuth = [
+  { href: "/login", label: "Login" },
+  { href: "/register", label: "Register" },
+  { href: "/forgot-password", label: "Forgot-password" },
+];
